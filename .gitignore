@@ -1,0 +1,43 @@
+# Python & Runtime
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments (uv & venv)
+.venv/
+env/
+venv/
+ENV/
+
+# Environment Variables
+.env
+.env.prod
+.env.test
+
+# Database
+*.db
+*.sqlite3
+# alembic/versions/*.pyc
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution & Build
+build/
+dist/
+*.egg-info/
+develop-eggs/
+
+# OS Specific
+.DS_Store
+Thumbs.db
